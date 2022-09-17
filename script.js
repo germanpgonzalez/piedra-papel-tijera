@@ -40,6 +40,7 @@ function tijera() {
   jugar();
 }
 
+//Esta función me devuelve en String la jugada del usuario
 function eleccion(opcion) {
   let res;
 
@@ -60,13 +61,9 @@ function jugar() {
   oppapel.disabled = false;
   optijera.disabled = false;
   
-  //La funcion eleccion solo me dice que elegi en numero, 
-  //no tengo que hacer la comparacion con esa eleccion
-  
-
   jugadaEnemiga = aleatorio(1, 3);
 
-  if (eleccion != 0) {
+  if (jugadaUsuario != undefined) {
     alert("Vos elegiste: " + eleccion(jugadaUsuario));
     alert("PC elige: " + eleccion(jugadaEnemiga));
 
