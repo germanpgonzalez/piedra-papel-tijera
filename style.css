@@ -1,0 +1,35 @@
+.titulos {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.jugadas {
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid;
+}
+
+.imagen {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.botones {
+    margin-top: 40px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+}
