@@ -53,9 +53,6 @@ function eleccion(opcion) {
    return res;
 }
 
-function inicio(){
-  jugar();
-}
 
 function jugar() {
 
