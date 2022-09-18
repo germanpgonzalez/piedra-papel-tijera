@@ -1,35 +1,51 @@
+.fondo {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .titulos {
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    justify-content:center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lalezar", cursive;
+  color:white;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.btn-jugadas {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .jugadas {
-    display : flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 1px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid;
 }
 
 .imagen {
-    width: 150px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 20px;
-    box-sizing: border-box;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  box-sizing: border-box;
 }
 
 .botones {
-    margin-top: 40px;
-    display : flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.btn {
-    background-color: transparent;
-    border-color: transparent;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
