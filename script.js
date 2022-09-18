@@ -40,7 +40,7 @@ function tijera() {
   jugar();
 }
 
-//Esta función me devuelve en String la jugada del usuario
+//Esta función me devuelve en String la jugada que eligió el usuario
 function eleccion(opcion) {
   let res;
 
@@ -56,11 +56,12 @@ function eleccion(opcion) {
 
 
 function jugar() {
-
+  //Habilito los botones para jugar
   oppiedra.disabled = false;
   oppapel.disabled = false;
   optijera.disabled = false;
   
+  //Se elige aleatoriamente la jugada de la pc
   jugadaEnemiga = aleatorio(1, 3);
 
   if (jugadaUsuario != undefined) {
